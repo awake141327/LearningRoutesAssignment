@@ -64,3 +64,26 @@ input {
   margin-bottom: 2rem;
 }
 
+@media (max-width:768px) {
+  * {
+    font-size:12px;
+  }
+  img {
+    width:150px;
+    height:100px;
+  }
+  button {
+    padding:4px 10px;
+  }
+  .radio {
+    padding:4px;
+  }
+  label {
+    margin: 2px;
+  }
+  input {
+    margin-right:5px;
+  }
+}
+
+
